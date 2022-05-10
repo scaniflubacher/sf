@@ -1,0 +1,5 @@
+<apex:page standardController="Account" extensions="CreateScaniflyProjectController">
+    <apex:form>
+        <apex:commandButton value="create" action="{!createScaniflyProject}"/>
+    </apex:form>
+</apex:page>
